@@ -1,0 +1,47 @@
+{
+  "table": [
+    ["There", "Are", "No", "Classes", "On", "Sundays!"],
+    [
+      "Maths",
+      "Hindi",
+      "English Language",
+      "History",
+      "English Literature",
+      "Physics"
+    ],
+    [
+      "Maths",
+      "Physics",
+      "English Language",
+      "Computer Applications",
+      "Hindi",
+      "Biology"
+    ],
+    [
+      "English Literature",
+      "Chemistry",
+      "Geogrpahy",
+      "Computer Applications",
+      "Biology",
+      "Maths"
+    ],
+    [
+      "Maths",
+      "English Literature",
+      "Chemistry",
+      "Computer Applications",
+      "Physics",
+      "History"
+    ],
+    [
+      "Chemistry",
+      "Counselling",
+      "Biology",
+      "Geogrpahy",
+      "Hindi",
+      "English Literature"
+    ],
+    ["Maths", "Yoga", "Geogrpahy", "SUPW", "History", "Physical Education"]
+  ],
+  "timings": [28800, 31800, 35400, 38400, 41400, 44400]
+}
