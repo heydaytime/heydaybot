@@ -4,32 +4,32 @@
     [
       "Maths",
       "Hindi",
-      "English Language",
+      "English-Language",
       "History",
-      "English Literature",
+      "English-Literature",
       "Physics"
     ],
     [
       "Maths",
       "Physics",
-      "English Language",
-      "Computer Applications",
+      "English-Language",
+      "Computer-Applications",
       "Hindi",
       "Biology"
     ],
     [
-      "English Literature",
+      "Maths",
       "Chemistry",
       "Geogrpahy",
-      "Computer Applications",
+      "Computer-Applications",
       "Biology",
-      "Maths"
+      "English-Literature"
     ],
     [
       "Maths",
-      "English Literature",
+      "English-Literature",
       "Chemistry",
-      "Computer Applications",
+      "Computer-Applications",
       "Physics",
       "History"
     ],
@@ -39,9 +39,25 @@
       "Biology",
       "Geogrpahy",
       "Hindi",
-      "English Literature"
+      "English-Language"
     ],
-    ["Maths", "Yoga", "Geogrpahy", "SUPW", "History", "Physical Education"]
+    ["Maths", "Yoga", "Geogrpahy", "SUPW", "History", "Physical-Education"]
   ],
-  "timings": [28800, 31800, 35400, 38400, 41400, 44400]
+  "timings": [28800, 31800, 35400, 38400, 41400, 44400],
+  "links": {
+    "Maths": "https://us02web.zoom.us/j/8497331043?pwd=S21nWUlsK3Roc1ZrNVhncm1CNTNkUT09",
+    "Computer-Applications": "https://us04web.zoom.us/j/8123060772?pwd=M21uemMzdjR4Yyt3Q21TZm14YUlJZz09",
+    "Hindi": "https://zoom.us/j/3037682321?pwd=MWFYZGFWMldLeHlqbk1JcTRYWDQ5UT09",
+    "English-Language": "https://us02web.zoom.us/j/2175002002?pwd=RnpZNDN4TXJLUW9HWWFURDd5MVlCQT09",
+    "English-Literature": "https://zoom.us/j/4886823736?pwd=T3Rlcjd1Zm50WUFtOWNqSUZ1L2VDQT09",
+    "Geography": "https://us02web.zoom.us/j/5525927196?pwd=Ri9BcmI3YWxnVCtXMzlIaTBXTGdWZz09",
+    "History": "https://us02web.zoom.us/j/2175002002?pwd=RnpZNDN4TXJLUW9HWWFURDd5MVlCQT09",
+    "Physics": "https://us02web.zoom.us/j/2439158221 (Passcode: 342782)",
+    "Chemistry": "https://us04web.zoom.us/j/9317077372?pwd=SzR3UHVQTEcwWG9sQW9HdGd3Qmpxdz09",
+    "Biology": "https://us02web.zoom.us/j/5876710805?pwd=ck1DWmsvMHRSTG8wMzZRR2hEQWJlZz09",
+    "Counselling": "I probably have an outdated link.",
+    "SUPW": "https://zoom.us/j/9744689239?pwd=TW1kVHBERUU5UzIzUFpxSzlSMEVadz09",
+    "Physical-Education": "I have no idea what is Physical Education's link.",
+    "Yoga": "Do your research and get the Yoga link."
+  }
 }
