@@ -4,7 +4,11 @@ require("dotenv").config({ path: `${__dirname}/../.env` });
 
 //Imports custom_moudles
 const { Client, Intents } = require("discord.js");
-const { timings } = require(`${__dirname}/timeTable`);
+const games = require(`${__dirname}/commands/games`);
+const memes = require(`${__dirname}/commands/memes`);
+const rank = require(`${__dirname}/commands/rank`);
+
+const { timings } = require(`${__dirname}/models/timeTable`);
 const secondsToHoursMintuesSeconds = require(`${__dirname}/functions/time/sToHMS`);
 const {
   sendMessage,
@@ -18,17 +22,27 @@ const clear = require(`${__dirname}/commands/clear`);
 const nextPeriodAlertMessage = require(`${__dirname}/messages/nextPeriodAlert`);
 
 // Process Enviroment Variables
-const periodTimings = [];
 const PREMATURE_RESPONSE_TIME = process.env.PREMATURE_RESPONSE_TIME;
 const PREFIX = process.env.PREFIX;
+const SERVER_ID = process.env.SERVER_ID;
+
+// Local Variables
+const periodTimings = [];
 
 // Creating the bot
 const client = new Client({
-  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
+  intents: [
+    Intents.FLAGS.GUILDS,
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_MEMBERS,
+    Intents.FLAGS.DIRECT_MESSAGES,
+    Intents.FLAGS.GUILD_INTEGRATIONS,
+    Intents.FLAGS.DIRECT_MESSAGES,
+  ],
 });
 
 // Bot ready event
-client.on("ready", () => {
+client.on("ready", async () => {
   console.log(`${client.user.tag} has logged in.`);
 });
 
@@ -41,14 +55,31 @@ client.on("messageCreate", (message) => {
     .substring(PREFIX.length)
     .split(/\s+/);
   switch (CMD_NAME) {
-    case "t":
-    case "timetable":
-      timetable.execute(message);
-      break;
     case "c":
     case "clear":
       clear.execute(message, args);
       break;
+    case "t":
+    case "timetable":
+      timetable.execute(message);
+      break;
+
+    case "m":
+    case "meme":
+    case "memes":
+      memes.execute(message);
+      break;
+
+    case "p":
+    case "play":
+      games.execute(message, args);
+      break;
+
+    case "s":
+    case "stats":
+      rank.execute(message);
+      break;
+
     case "h":
     case "help":
     default:

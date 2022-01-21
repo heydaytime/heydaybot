@@ -1,5 +1,5 @@
 const secondsToHoursMintuesSeconds = require(`${__dirname}/../functions/time/sToHMS`);
-const { table, timings } = require(`${__dirname}/../timeTable`);
+const { table, timings } = require(`${__dirname}/../models/timeTable`);
 
 module.exports = {
   name: "timetable",
