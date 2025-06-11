@@ -16,7 +16,7 @@ HeyDayBot is a Discord bot I built in late 2022, during the tail end of the COVI
   Fully synced with my school schedule. It knew what class was coming up and when.
 
 - 😂 **Meme Command**:  
-  Users could trigger a command to receive a random meme from a pre-loaded collection.
+  Users could trigger a command to receive a random meme.
 
 - 🏆 **Scoring System** *(Experimental)*:  
   There was also a basic scoring/points system, though I don’t remember exactly how it worked.
