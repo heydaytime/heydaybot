@@ -1,6 +1,6 @@
 # HeyDayBot - Reminders and Memes
 
-HeyDayBot is a Discord bot I built in late 2022, during the tail end of the COVID era. It was designed to help manage my online class schedule and add a little fun to my day with memes.
+HeyDayBot is a Discord bot I built in late 2021, during the tail end of the COVID era. It was designed to help manage my online class schedule and add a little fun to my day with memes.
 
 ## ✨ Features
 
